@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>Simple Line</name>
+    <description>A Simple Line</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+      <!-- Opacity, Blue, Green, Red -->
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+		<name>Blue Line</name>
+		<styleUrl>#blueLine</styleUrl>
+		<description>DS3 -> EA</description>
+		<LineString>
+        <altitudeMode>relative</altitudeMode>
+			<coordinates>
+				<!-- longitude, latitude, altitude (above sea level) -->
+				18.61098444536984, 54.36972044856941, 0
+				18.611046047823347, 54.370072412469824, 0
+				18.61064326255041, 54.37011381983132, 0
+				18.610693820810372, 54.37021918120806, 0
+				18.613700452191765, 54.37002759203807, 0
+				18.614276684549736, 54.370831249721306, 0
+				18.613158115051604, 54.371032655196586, 0
+				18.613130998215283, 54.37095367272772, 0
+			</coordinates>
+		</LineString>
+    </Placemark>
+
+  </Document>
+</kml>

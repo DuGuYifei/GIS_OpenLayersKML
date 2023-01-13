@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>Simple Polygon</name>
+    <description>A Simple Polygon</description>
+
+    <Style id="bluePoly">
+      <PolyStyle>
+      <!-- Opacity, Blue, Green, Red -->
+        <color>ffff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+
+    <Placemark>
+		<name>NE</name>
+		<styleUrl>#bluePoly</styleUrl>
+		<description>NE of IT facaulty</description>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+						<!-- longitude, latitude, altitude (above sea level) -->
+						18.61236804486174, 54.37128439329723, 0
+						18.61273447979427, 54.3713357757874, 0
+						18.612645759484078, 54.37155277228712, 0
+						18.612722742684873, 54.3717084610758, 0
+						18.613004409315145, 54.37185714005244, 0
+						18.612752441591887, 54.37201782094277, 0
+						18.6124731234338, 54.37186748189862, 0
+						18.612203605912846, 54.37183100714333, 0
+						18.61183880441985, 54.37189634449075, 0
+						18.61172827501225, 54.37168542500993, 0
+						18.612092254064965, 54.37161834473696, 0
+						18.612284608142854, 54.371498187607585, 0
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+    </Placemark>
+
+  </Document>
+</kml>

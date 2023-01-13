@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+
+	<name>KML sample file</name>
+	<description>KML file</description>
+
+<!-- 	<Placemark>
+		<name>Gdansk, Narutowicza 11/12</name>
+		<description>Wydzial ETI Politechniki Gdanskiej</description>
+		<Point>
+			<coordinates>18.61289,54.37096</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Tczew, Nadbrzezna 10</name>
+		<description>Tczew, Nadbrzezna 10</description>
+		<Point>
+			<coordinates>18.807,54.0807</coordinates>
+		</Point>
+	</Placemark> -->
+	
+	<Placemark>
+		<name>DS3</name>
+		<description>Student dorm No.3</description>
+		<Point>
+			<coordinates>18.61088147392831, 54.36968676014871</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>DS4</name>
+		<description>Student dorm No.4</description>
+		<Point>
+			<coordinates>18.610183024396925,54.3694608650342</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>DS2</name>
+		<description>Student dorm No.2</description>
+		<Point>
+			<coordinates>18.607314577517354, 54.369588744676435</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>DS1</name>
+		<description>Student dorm No.1</description>
+		<Point>
+			<coordinates>18.607476342158854, 54.36881824229329</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>DS12</name>
+		<description>Student dorm No.12</description>
+		<Point>
+			<coordinates>18.608187154484543, 54.368898310902665</coordinates>
+		</Point>
+	</Placemark>
+
+</Document>
+</kml>
